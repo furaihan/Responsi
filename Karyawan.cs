@@ -21,7 +21,7 @@ namespace ResponsiPemrograman4374
         {
             if (percentage > 0)
             {
-                GajiBulanan += (GajiBulanan * percentage / 100);
+                GajiBulanan += GajiBulanan * percentage / 100;
             }
         }
     }
