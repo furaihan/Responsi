@@ -11,7 +11,7 @@ namespace ResponsiPemrograman4374
             Console.WriteLine("No  NIK/Nama \t\t\t\t Gaji Bulanan");
             Console.WriteLine("---------------------------------------------------");
             Console.WriteLine($"1.  {karyawan1.NIK} {karyawan1.Nama} \t\t {karyawan1.GajiBulanan}");
-            Console.WriteLine($"1.  {karyawan2.NIK} {karyawan2.Nama} \t\t {karyawan2.GajiBulanan}");
+            Console.WriteLine($"2.  {karyawan2.NIK} {karyawan2.Nama} \t\t {karyawan2.GajiBulanan}");
             Console.WriteLine();
             Console.WriteLine("Kenaikan gaji 10%");
             karyawan1.AddSalaryPercentage(10);
@@ -19,7 +19,7 @@ namespace ResponsiPemrograman4374
             Console.WriteLine("No  NIK/Nama \t\t\t\t Gaji Bulanan");
             Console.WriteLine("---------------------------------------------------");
             Console.WriteLine($"1.  {karyawan1.NIK} {karyawan1.Nama} \t\t {karyawan1.GajiBulanan}");
-            Console.WriteLine($"1.  {karyawan2.NIK} {karyawan2.Nama} \t\t {karyawan2.GajiBulanan}");
+            Console.WriteLine($"2.  {karyawan2.NIK} {karyawan2.Nama} \t\t {karyawan2.GajiBulanan}");
             Console.ReadLine();
         }
     }
